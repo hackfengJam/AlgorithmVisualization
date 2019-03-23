@@ -8,10 +8,10 @@ public class AlgoVisualizer {
     private InsertionSortData data;        // 数据
     private AlgoFrame frame;    // 视图
 
-    public AlgoVisualizer(int sceneWidth, int sceneHeight, int N) {
+    public AlgoVisualizer(int sceneWidth, int sceneHeight, int N, InsertionSortData.Type dataType) {
 
         // 初始化数据
-        data = new InsertionSortData(N, sceneHeight);
+        data = new InsertionSortData(N, sceneHeight, dataType);
 
         // 初始化视图
         EventQueue.invokeLater(() -> {
@@ -20,6 +20,10 @@ public class AlgoVisualizer {
                 run();
             }).start();
         });
+    }
+
+    public AlgoVisualizer(int sceneWidth, int sceneHeight, int N) {
+        this(sceneWidth, sceneHeight, N, InsertionSortData.Type.Default);
     }
 
     // 动画逻辑
@@ -54,6 +58,6 @@ public class AlgoVisualizer {
         int N = 100;
 
         // TODO: 根据需要设置其他参数，初始化visualizer
-        AlgoVisualizer visualizer = new AlgoVisualizer(sceneWidth, sceneHeight, N);
+        AlgoVisualizer visualizer = new AlgoVisualizer(sceneWidth, sceneHeight, N, InsertionSortData.Type.NearlyOrdered);
     }
 }

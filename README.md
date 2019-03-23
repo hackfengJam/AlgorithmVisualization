@@ -11,6 +11,20 @@
     - [AlgoVisHelper - 可视化工具类 ](./JFrameDemo/src/AlgoVisHelper.java)
     - [AlgoVisualizer - 可视化控制类 ](./JFrameDemo/src/AlgoVisualizer.java)
 
+- 【排序算法可视化】
+    - [选择排序](./SelectionSortVisualization/src/AlgoVisualizer.java)
+    - [插入排序](./InsertionSortVisualization/src/AlgoVisualizer.java)
+
+- 【走迷宫】
+    - Pending
+- 【随机迷宫生成】
+    - Pending
+- 【扫雷游戏】
+    - Pending
+- 【益智游戏自动生成解 - Move the Box】
+    - Pending
+
+
 #### 我的相关仓库
 
 [HelloAlgorithm - 常用数据结构与算法](https://github.com/hackfengJam/HelloAlgorithm)
