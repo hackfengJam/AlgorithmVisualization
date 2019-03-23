@@ -9,7 +9,7 @@
 - 【JFrame 基本使用】
     - [AlgoFrame - 实现继承JFrame类](./JFrameDemo/src/AlgoFrame.java)
     - [AlgoVisHelper - 可视化工具类 ](./JFrameDemo/src/AlgoVisHelper.java)
-    - [AlgoVisHelper - 可视化控制类 ](./JFrameDemo/src/AlgoVisHelper.java)
+    - [AlgoVisualizer - 可视化控制类 ](./JFrameDemo/src/AlgoVisualizer.java)
 
 #### 我的相关仓库
 
