@@ -21,7 +21,9 @@
     - [堆排序](./HeapSortVisualization/src/AlgoVisualizer.java)
 
 - 【走迷宫】
+    - [处理迷宫文件](./MazeSolver/src/MazeData.java)
     - Pending
+
 - 【随机迷宫生成】
     - Pending
 - 【扫雷游戏】
