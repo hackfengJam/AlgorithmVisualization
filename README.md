@@ -14,6 +14,11 @@
 - 【排序算法可视化】
     - [选择排序](./SelectionSortVisualization/src/AlgoVisualizer.java)
     - [插入排序](./InsertionSortVisualization/src/AlgoVisualizer.java)
+    - [归并排序](./MergeSortVisualization/src/AlgoVisualizer.java)
+    - [快速排序](./QuickSortVisualization/src/AlgoVisualizer.java)
+    - [双路快速排序](./QuickSortVisualization/src/TwoWaysAlgoVisualizer.java)
+    - [三路快速排序](./QuickSortVisualization/src/ThreeWaysAlgoVisualizer.java)
+    - [堆排序](./HeapSortVisualization/src/AlgoVisualizer.java)
 
 - 【走迷宫】
     - Pending
